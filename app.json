@@ -18,15 +18,15 @@
     },
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": ""
+      "value": "1824182867:AAHTTF4FGzcsMj8T8N38uCXBy4WtMh5DzcM"
     },
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "1976680"
     },
     "DB_CHANNEL_ID": {
       "description": "give me the telegram channel ID here (better this should be private channel)",
-      "value": ""
+      "value": "-1001231681806"
     },
     "UPDATE_CHANNEL": {
       "description": "Your bot updates channel like Ns_bot_updates (username without @ for forcesub). (Leave empty it you don't want to add)",
@@ -35,11 +35,11 @@
     },
     "OWNER_ID": {
       "description": "give your telegram user id here",
-      "value": ""
+      "value": "1268370763"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "9073255ce64a6072a59099803493f97d"
     }
   },
   "addons": [
