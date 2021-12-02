@@ -18,29 +18,17 @@ async def help_cb(c, m):
     await m.answer()
 
     # help text
-    help_text = """**You need Help?? 🧐**
-
-★ Just send me the files i will store file and give you share able link
-
-
-**You can use me in channel too 😉**
-
-★ Make me admin in your channel with edit permission. Thats enough now continue uploading files in channel i will edit all posts and add share able link url buttons
-
-
-**How to enable uploader details in caption**
-
-★ Use /mode command to change and also you can use `/mode channel_id` to control caption for channel msg.
+    help_text = """**You need Help?? Contact @groupdc **
 """
 
     # creating buttons
     buttons = [
         [
-            InlineKeyboardButton('Home 🏕', callback_data='home'),
-            InlineKeyboardButton('About 📕', callback_data='about')
+            InlineKeyboardButton('🏡Home🏡', callback_data='home'),
+            InlineKeyboardButton('😎About😎', callback_data='about')
         ],
         [
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('Close', callback_data='close')
         ]
     ]
 
@@ -66,29 +54,29 @@ async def about_cb(c, m):
     # about text
     about_text = f"""--**My Details:**--
 
-🤖 𝐌𝐲 𝐍𝐚𝐦𝐞: {bot.mention(style='md')}
+🤖 I am : {bot.mention(style='md')}
     
-📝 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞: [Python 3](https://www.python.org/)
+📝 Python: [Python 3](https://www.python.org/)
 
-🧰 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤: [Pyrogram](https://github.com/pyrogram/pyrogram)
+🤹 GitHub: [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-👨‍💻 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫: {owner.mention(style='md')}
+👨‍💻 Owner: {owner.mention(style='md')}
 
-📢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+📢 Updates: [Group Dc Bots](https://t.me/Groupdcbots)
 
-👥 𝐆𝐫𝐨𝐮𝐩: [Ns BOT SUPPORT](https://t.me/Ns_Bot_supporters)
+👥 Support: [Group Dc](https://t.me/groupdc)
 
-🌐𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞: [Press Me 🥰](https://github.com/Ns-Bots/TG-File-Store)
+🌐 Source code: [Press Me 🥰](https://github.com/selfie-bd)
 """
 
     # creating buttons
     buttons = [
         [
-            InlineKeyboardButton('Home 🏕', callback_data='home'),
-            InlineKeyboardButton('Help 💡', callback_data='help')
+            InlineKeyboardButton('🏡Home🏡', callback_data='home'),
+            InlineKeyboardButton('⚠️Help⚠️', callback_data='help')
         ],
         [
-            InlineKeyboardButton('Close 🔐', callback_data='close')
+            InlineKeyboardButton('Close', callback_data='close')
         ]
     ]
 
